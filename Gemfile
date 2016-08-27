@@ -19,6 +19,8 @@ gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 # Use Kaminari
 gem 'kaminari'
+# Use simple form
+gem 'simple_form'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
