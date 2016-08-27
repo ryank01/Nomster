@@ -21,6 +21,8 @@ gem 'sass-rails'
 gem 'kaminari'
 # Use simple form
 gem 'simple_form'
+# Use devise
+gem 'devise', '>= 3.2.4'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
