@@ -24,7 +24,6 @@ gem 'simple_form'
 # Use devise
 gem 'devise', '>= 3.2.4'
 
-gem 'puma'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
