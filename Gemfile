@@ -23,6 +23,10 @@ gem 'kaminari'
 gem 'simple_form'
 # Use devise
 gem 'devise', '>= 3.2.4'
+#Use geocoder
+gem "geocoder", "1.3.4"
+#Use to add API keys to ENV
+gem "figaro", ">= 1.0.0"
 
 
 # Use jquery as the JavaScript library
