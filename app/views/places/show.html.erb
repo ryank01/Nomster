@@ -31,6 +31,19 @@
     <div id="map"></div>
   <% end %>
   <br />
+<!-- Form for adding photo -->
+  <%= simple_form_for @photo,url: place_photos_path(@place) do |f| %>
+  <%= f.input :comment %>
+  <%= f.input :picture %>
+  <%= f.submit "Submit Caption", class: 'btn btn-primary' %>
+<% end %>
+
+<div class="booyah-box">
+<% @place.photos.each do |photo| %>
+<%= image_tag photo.picture %>
+<%= photo.comment %><br />
+<% end %>
+</div>
 
 <div class="pull-right">
     <% if current_user && current_user == @place.user %>

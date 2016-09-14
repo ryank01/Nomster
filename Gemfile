@@ -27,6 +27,12 @@ gem 'devise', '>= 3.2.4'
 gem "geocoder", "1.3.4"
 #Use to add API keys to ENV
 gem "figaro", ">= 1.0.0"
+#Use carrierwave
+gem 'carrierwave'
+#Use minimagic
+gem "mini_magick"
+#Use Rmagic
+gem "rmagick"
 
 
 # Use jquery as the JavaScript library
