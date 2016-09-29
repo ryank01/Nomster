@@ -33,7 +33,8 @@ gem 'carrierwave'
 gem "mini_magick"
 #Use Rmagic
 gem "rmagick"
-
+#Use fog
+gem "fog"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
